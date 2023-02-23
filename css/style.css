@@ -7,11 +7,14 @@
     font-family: 'BabyGirl';
 }
 
+
+
 #title-container {
     color: white;
     background-color: black;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 #title {
@@ -19,7 +22,11 @@
     font-family: 'BabyGirl';
 }
 
-.d-block {
+.nav-container {
+    font-size: 30px;
+}
+
+.carousel-inner{
     width: 50%;
     height: 50%;
 }
