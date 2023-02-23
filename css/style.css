@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'BabyGirl';
 }
 
 #title-container {
@@ -14,7 +15,8 @@
 }
 
 #title {
-    font-size: 70px;
+    font-size: 100px;
+    font-family: 'BabyGirl';
 }
 
 .d-block {
@@ -24,4 +26,15 @@
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+/* Fuente */
+@font-face {
+    font-family: 'CocaCola';
+    src: url('../fonts/Coca\ Cola\ ii.ttf');
+}
+
+@font-face {
+    font-family: 'BabyGirl';
+    src: url('../fonts/212\ Baby\ Girl.otf');
 }
