@@ -1,0 +1,27 @@
+* {
+    background: #000000;
+    /* Elimina los estilos base del navegador */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#title-container {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    font-size: 70px;
+}
+
+.d-block {
+    width: 50%;
+    height: 50%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
