@@ -39,6 +39,7 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 .card
@@ -52,7 +53,7 @@
 
 .card:hover
 {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 5 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card-text
@@ -61,7 +62,17 @@
     color:  white; 
     padding: 2px 16px;
 }
-
+.container_quienes_somos
+{
+    display: flex;
+    justify-content: center;
+}
+#quienes_somos
+{
+    padding-top: 30px;
+    width: 50%;
+    height: 50%;
+}
 
 /* Fuente */
 @font-face {
@@ -76,5 +87,5 @@
 
 ::-webkit-scrollbar {
     display: none;
-    }
+}
     
