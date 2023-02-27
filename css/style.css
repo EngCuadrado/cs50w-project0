@@ -5,6 +5,10 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'BabyGirl';
+
+    /* Elimina la barra de hacer scroll */
+    scrollbar-width: none;
+    overflow-y: scroll;
 }
 
 
@@ -14,7 +18,7 @@
     background-color: black;
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 #title {
@@ -26,17 +30,37 @@
     font-size: 30px;
 }
 
-.carousel-inner{
-    width: 50%;
-    height: 50%;
+
+
+/* Cards */
+
+.card-container
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 20%;
+    margin-left: 20px;
 }
 
-::-webkit-scrollbar {
-    display: none;
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-/* Carrusel Imagenes */
-
+.card-text
+{
+    justify-content: center;
+    color:  white; 
+    padding: 2px 16px;
+}
 
 
 /* Fuente */
@@ -49,3 +73,8 @@
     font-family: 'BabyGirl';
     src: url('../fonts/212\ Baby\ Girl.otf');
 }
+
+::-webkit-scrollbar {
+    display: none;
+    }
+    
