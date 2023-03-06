@@ -49,6 +49,7 @@
     width: 20%;
     height: 20%;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .card:hover
@@ -73,6 +74,32 @@
     width: 50%;
     height: 50%;
 }
+
+.QS_text
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+.container_btn_equipo
+{
+    display: flex;
+    justify-content: center;
+}
+/*    BTN     */
+.btn_body
+{
+    background-color: #FFFFFF;
+    color:#000000;
+    
+}
+
 
 /* Fuente */
 @font-face {
