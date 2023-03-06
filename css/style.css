@@ -116,7 +116,18 @@
 
 
 
+.footer_container
+{
+    padding-top: 100px;
+}   
 
+.footer_main
+{
+    width: 100%; 
+    height: 100px;
+    background-color: #141313;
+
+}
 
 /* Fuente */
 @font-face {
