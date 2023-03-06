@@ -93,11 +93,25 @@
     justify-content: center;
 }
 /*    BTN     */
-.btn_body
+.btn_estilo
 {
-    background-color: #FFFFFF;
-    color:#000000;
-    
+    background-color: #ffffff;
+    border: none;
+    color: #2600ff;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.btn_estilo:hover
+{
+    background-color: #2600ff;
+    color: #FFFFFF;
+    transition: .5s;      
+
 }
 
 
