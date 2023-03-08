@@ -5,7 +5,30 @@ $white:  #FFFFFF;
     display: flex;
     justify-content: left;
     color: $white;
-    font-size: 50px;
+    font-size: 60px;
     padding-left: 50px;
+    padding-top: 30px;
 }
 
+.container_primaria{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    .horario_primaria{
+        text-align: center;
+        width: 50%;
+        color: $white;
+        .title_primaria{
+            font-size: 30px;
+        }
+        .text_primaria{
+            font-size: 20px;
+        }
+    }
+}
+
+.img_primaria{
+    padding-top: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
