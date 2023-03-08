@@ -25,7 +25,10 @@
     font-size: 100px;
     font-family: 'BabyGirl';
 }
-
+#title_inicio{
+    font-size: 110px;
+    font-family: 'BabyGirl';  
+}
 .nav-container {
     font-size: 30px;
 }
