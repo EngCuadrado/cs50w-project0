@@ -112,4 +112,17 @@ table tbody th {
   padding-top: 30px;
 }
 
+/* galeria de imagenes */
+.img_gallery {
+  max-width: 100%;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  display: block;
+}
+
+.gallery {
+  columns: 5 320px;
+  column-gap: 1em;
+}
+
 /*# sourceMappingURL=style_s.css.map */
