@@ -2,13 +2,14 @@
   width: 100%;
   height: 450px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .inicio .inicio_medio1 {
-  width: 60%;
+  width: 50%;
 }
 .inicio .inicio_medio2 {
-  width: 40%;
+  width: 50%;
 }
 
 .imagen_inicio {
@@ -145,6 +146,19 @@ table tbody th {
 .gallery {
   columns: 5 320px;
   column-gap: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  .inicio {
+    flex-direction: column;
+  }
+  .inicio_medio1, .inicio_medio2 {
+    width: 100%;
+  }
+  .imagen_inicio {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=style_s.css.map */

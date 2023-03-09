@@ -40,19 +40,21 @@
 .card-container
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
-
+    
 }
+
+
 .card
 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 20%;
-    height: 20%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 300px;
+    height: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .card:hover
@@ -150,3 +152,13 @@
     display: none;
 }
     
+@media screen and (max-width: 600px) {
+    #title_inicio{
+        font-size: 50px;
+    }
+
+    #title{
+        font-size: 70px;
+    }
+    
+}
