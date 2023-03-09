@@ -5,16 +5,13 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.inicio .inicio_medio1 {
-  width: 50%;
-}
-.inicio .inicio_medio2 {
+.inicio .inicio_medio1, .inicio .inicio_medio2 {
   width: 50%;
 }
 
 .imagen_inicio {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 .right-inicio-container {
@@ -156,8 +153,9 @@ table tbody th {
     width: 100%;
   }
   .imagen_inicio {
+    padding-top: 50px;
     width: 100%;
-    height: 100%;
+    height: 70%;
   }
 }
 
