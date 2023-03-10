@@ -145,7 +145,7 @@ table tbody th {
   column-gap: 1em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .inicio {
     flex-direction: column;
   }
