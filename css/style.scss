@@ -1,5 +1,10 @@
 $white:  #FFFFFF; 
 
+%centrar {
+    display: flex;
+    justify-content: center;
+  }
+
 .inicio{
     width: 100%;
     height: 450px;
@@ -24,8 +29,7 @@ $white:  #FFFFFF;
 
 .Ltitle
 {
-    display: flex;
-    justify-content: left;
+    @extend %centrar;
     color: $white;
     font-size: 60px;
     padding-left: 50px;
@@ -33,8 +37,7 @@ $white:  #FFFFFF;
 }
 
 .container_primaria{
-    display: flex;
-    justify-content: center;
+    @extend %centrar;
     width: 100%;
     height: 500px;
     .horario_primaria{
@@ -56,8 +59,7 @@ $white:  #FFFFFF;
 }
 
 .container_secundaria{
-    display: flex;
-    justify-content: center;
+    @extend %centrar;
     color: $white;
     font-size: 20px;
 }
@@ -68,8 +70,7 @@ $white:  #FFFFFF;
 }
 
 section{
-    display: flex;
-    justify-content: center;
+    @extend %centrar;
     padding-left: 30px;
     padding-right: 30px;
 
@@ -91,15 +92,13 @@ section img:hover{
 }
 
 .container_t2{
-    display: flex; 
-    justify-content: center;
+    @extend %centrar;
     font-size: 25px;
     color: $white;
 }
 
 .container_text_uni_uca{
-    display: flex;
-    justify-content: center;
+    @extend %centrar;
     width: 100%;
     height: 300px;
     .text_universidad{
@@ -114,9 +113,8 @@ section img:hover{
 }
 
 .lista_temas{
-     display: flex;
-     justify-content: center;
-     padding-top: 30px;
+    @extend %centrar;
+    padding-top: 30px;
 }
 
 table{
@@ -133,8 +131,7 @@ table tbody th{
 }
 
 .container_btn_resultados{
-    display: flex;
-    justify-content: center;
+    @extend %centrar;
     padding-top: 30px;
 }
 
