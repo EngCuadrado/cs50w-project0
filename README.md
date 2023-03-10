@@ -1,6 +1,10 @@
 # cs50w-project0
 Primer proyecto de Web50 "HomePage" de la academia  "Math For All"
 
+Math For All es un centro de entrenamiento innovador que te brinda la oportunidad de aprender matemática, física, química, inglés, programación y prepararte 
+para tu examen de admisión de una manera fácil, divertida y única. Se destaca por su metodología de enseñanza diferenciada que se adapta a cada estudiante, 
+acercandose a ellos de manera personalizada. 
+
 El proyecto contiene 4 archivos html
   index.html (breve descripción de la academia)
   equipo.html (presentación de las personas que participan en la academia)
